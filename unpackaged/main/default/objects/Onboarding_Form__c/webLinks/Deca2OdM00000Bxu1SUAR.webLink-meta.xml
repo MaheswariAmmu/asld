@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deca2OdM00000Bxu1SUAR</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Send Onboarding Form</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>{!URLFOR($Site.BaseUrl + &#39;/apex/dfsle__sending&#39;, null, [sId = Onboarding_Form__c.Id, sendingExperience = &#39;null&#39;, isEmbedded = false, templateId = &#39;a2OdM00000Bxu1SUAR&#39;, recordId = Onboarding_Form__c.Id, title = &#39;Send Onboarding Form&#39;])}</url>
+</WebLink>
